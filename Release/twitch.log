@@ -1,0 +1,37 @@
+﻿  GameMain.cpp
+  GameScreen.cpp
+  MainScreen.cpp
+Engine\Graphics\GUI\Screens\MainScreen.cpp(24): warning C4305: 'argument': truncation from 'double' to 'float'
+Engine\Graphics\GUI\Screens\MainScreen.cpp(25): warning C4305: 'argument': truncation from 'double' to 'float'
+  Object3D.cpp
+Engine\Graphics\Object3D.cpp(194): warning C4018: '<': signed/unsigned mismatch
+Engine\Graphics\Object3D.cpp(218): warning C4018: '<': signed/unsigned mismatch
+Engine\Graphics\Object3D.cpp(236): warning C4018: '<': signed/unsigned mismatch
+Engine\Graphics\Object3D.cpp(247): warning C4018: '<': signed/unsigned mismatch
+Engine\Graphics\Object3D.cpp(382): warning C4018: '<': signed/unsigned mismatch
+Engine\Graphics\Object3D.cpp(418): warning C4018: '>=': signed/unsigned mismatch
+Engine\Graphics\Object3D.cpp(428): warning C4018: '>': signed/unsigned mismatch
+  Text2D.cpp
+Engine\Graphics\Text2D.cpp(128): warning C4838: conversion from 'FT_Pos' to 'GLuint' requires a narrowing conversion
+Engine\Graphics\Text2D.cpp(232): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+Engine\Graphics\Text2D.cpp(238): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+Engine\Graphics\Text2D.cpp(239): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Asteroid.cpp
+  Planet.cpp
+  SpaceShip.cpp
+Game\Levels\Level1\GameObjects\SpaceShip.cpp(31): warning C4305: 'argument': truncation from 'double' to 'float'
+  SpaceShipGuns.cpp
+  Explosion.cpp
+Game\common\effects\Explosion.cpp(47): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+Game\common\effects\Explosion.cpp(108): warning C4018: '<': signed/unsigned mismatch
+  Generating code
+  11 of 13068 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    17 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+SOIL.lib(SOIL.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(SOIL.obj)' or at 'F:\vs_workspace\game_development_workspace\game_1 - backup_threaded\Release\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(image_helper.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_helper.obj)' or at 'F:\vs_workspace\game_development_workspace\game_1 - backup_threaded\Release\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(stb_image_aug.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(stb_image_aug.obj)' or at 'F:\vs_workspace\game_development_workspace\game_1 - backup_threaded\Release\SOIL.pdb'; linking object as if no debug info
+SOIL.lib(image_DXT.obj) : warning LNK4099: PDB 'SOIL.pdb' was not found with 'SOIL.lib(image_DXT.obj)' or at 'F:\vs_workspace\game_development_workspace\game_1 - backup_threaded\Release\SOIL.pdb'; linking object as if no debug info
+  twitch.vcxproj -> F:\vs_workspace\game_development_workspace\game_1 - backup_threaded\Release\Space Wars.exe
+  twitch.vcxproj -> F:\vs_workspace\game_development_workspace\game_1 - backup_threaded\Release\Space Wars.pdb (Full PDB)
